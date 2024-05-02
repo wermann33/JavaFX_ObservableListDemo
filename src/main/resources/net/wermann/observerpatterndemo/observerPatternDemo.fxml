@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+
+<VBox xmlns="http://javafx.com/javafx/15" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.wermann.observerpatterndemo.controller.ObserverPatternController">
+    <ListView fx:id="personListView"/>
+    <TextField fx:id="nameTextField" promptText="Enter name"/>
+    <Button text="Add Person" onAction="#addPerson"/>
+    <Button text="Remove Person" onAction="#removePerson"/>
+</VBox>
